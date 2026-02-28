@@ -281,4 +281,31 @@ body {
 }
 
 .question-card:hover {
-  border-
+  border-color: #00E5FF;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.12);
+  transform: translateY(-2px);
+}
+
+.question-card h3 {
+  color: #FFE600;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.question-card p {
+  color: #999;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.q-meta {
+  color: #555;
+  font-size: 0.82rem;
+  letter-spacing: 0.5px;
+}
+
+.q-meta strong {
+  color: #9B5DE5;
+}

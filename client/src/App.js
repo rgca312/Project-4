@@ -5,8 +5,6 @@ import Dashboard from './components/Dashboard'
 import './App.css'
 
 function App() {
-  const token = localStorage.getItem('token')
-
   return (
     <Router>
       <Routes>
@@ -14,7 +12,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route
           path="/dashboard"
-          element={token ? <Dashboard /> : <Navigate to="/" />}
+          element={localStorage.getItem('token') ? <Dashboard /> : <Navigate to="/" />}
         />
       </Routes>
     </Router>
