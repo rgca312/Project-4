@@ -5,7 +5,7 @@ try {
   db = await mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'YOUR_PASSWORD_HERE',
+    password: 'P@sswordviiper8400',
     database: 'fitlife_db'
   })
   console.log('Connected to FitLife database ✅')
